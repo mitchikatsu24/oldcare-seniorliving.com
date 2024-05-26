@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="img/jpg" href="img/seniorr.png">
+</head>
+<body>
+    <section class="header">
+        <nav style="position: fixed; right: 0; left: 0; top: 0; z-index: 7;">
+            <a href="homepage.html">
+                <img src="img/Blue_Minimalist_Medical_Logo__2_-removebg-preview.png" alt=""></a>
+                <div class="navlinks" id="navlinks">
+                    <i class="fa-solid fa-rectangle-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li>
+                            <a href="homepage.html">Home</a>
+                        </li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="contactus.html">Contact us</a></li>
+                        <li><a href="a"> Services</a></li>
+                        <li class="faq active"><a href="faqs.html">FAQs</a></li>
+                        <li><a href="login.html"><img src="img/logout.png" style="width: 20px; height: 15px;margin-top: 6px;" alt="">Log out</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button type="submit" class="search-button">
+                    <img src="img/search.png" alt="Search">
+                </button>
+            </div>
+        </nav>
+        <div class="textbox">
+            <h1>Welcome To Customers Support</h1>
+            <p>At Oldcare senior living, we're here to help you navigate elder care. <br> With various care options available, including assisted living <br> and independent living, our highly trained caregivers <br> ensure resident safety and well-being.</p>
+            <a href="#container" class="btn">Read More</a>
+        </div> 
+    </section>
+    <div class="faq-container">
+        <h2 style="margin-bottom: 40px;">FAQs</h2>
+        <p>Have questions? Here you'll find the answers most valued by our community, along with access to step-by-step instructions and support.</p>
+        <div class="faq-category">
+            <h3>About Us</h3>
+            <div class="faq-item">
+                <div class="question">What services do you offer? <i class="fa-solid fa-caret-down" style="color: #20a5fd;"></i></div>
+                <div class="answer">We offer a range of services including assisted living, memory care, and skilled nursing care.</div>
+            </div>
+            <div class="faq-item">
+                <div class="question">How can I arrange a tour of the facility? <i class="fa-solid fa-caret-down" style="color: #20a5fd;"></i></div>
+                <div class="answer">You can arrange a tour by contacting us through our website or by calling our customer service line.</div>
+            </div>
+            <div class="faq-item">
+                <div class="question">Are meals included in the care plans? <i class="fa-solid fa-caret-down" style="color: #20a5fd;"></i></div>
+                <div class="answer">Yes, all our care plans include three nutritious meals per day, along with snacks.</div>
+            </div>
+            <div class="faq-item">
+                <div class="question">What if I have more questions? <i class="fa-solid fa-caret-down" style="color: #20a5fd;"></i></div>
+                <div class="answer">Feel free to contact us anytime through our website or by phone. We are here to help!</div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+  
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <div class="logo"> <img src="img/Blue_Minimalist_Medical_Logo__2_-removebg-preview.png" alt=""></div>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <a href="#">Home</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">About us</a>
+                    <a href="#">Get started</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <a href="#">App design</a>
+                    <a href="#">Web design</a>
+                    <a href="#">Logo design</a>
+                    <a href="#">Banner design</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Account</h3>
+                    <a href="#">Profile</a>
+                    <a href="#">My account</a>
+                    <a href="#">Preferences</a>
+                    <a href="#">Purchase</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Location Info</h3>
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Libacao purok 2, Himamaylan city</a>
+                    <a href="#"><i class="fa-solid fa-phone"></i> 09972253755</a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i> cagalitanryan8@gmail.com</a>
+                </div>
+                <div class="footer-column subscribe-column">
+                    <h3>Subscribe</h3>
+                    <form>
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">Copyright © 2021 Codecary. All rights reserved</div>
+                <div class="footer-links">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+<style>
+    *{margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.faq.active a{
+        width: 100%;
+        border-bottom: solid 3px #20a5fd;
+        transition: 0.5s;
+        
+        
+    }
+
+
+
+@media(max-width:700px){
+    .ques{
+    text-align: left;
+    transform: translate(-20px,-50px);}
+    .ques img{
+        height: 300px;
+        width: 300px;
+        
+    }
+    .container{
+        background-position: center;
+            justify-content: center;
+            text-align: center;
+            position: absolute;
+            padding: 0px 10px;
+            width: 300px;
+            
+         
+            
+
+    }
+    .faq-item h3{font-size: 20px;}
+}
+
+
+
+        
+        
+        
+    .header{
+        min-height: 95vh;
+        width: 100%;
+        background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(img/5066368.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-attachment: fixed;
+
+    }
+    nav{
+        display: flex;
+        padding: 20pX 6%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        height: 50px;
+        
+        
+        
+
+    }
+    .navlinks ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    nav img{
+        width: 230px;
+
+    }
+    .navlinks{
+        flex: 1;
+        text-align: right;
+    }
+    .navlinks ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .navlinks ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background-color: #20a5fd;
+        display: block;
+        margin: auto; 
+        transition: 0.5s;
+    }
+    .navlinks ul li:hover::after{
+        width: 100%;
+
+    }
+    .textbox{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .textbox h1{
+        font-size: 40px;
+    }
+    .textbox p{
+        margin: 10px 0 40px;
+        font-size: 17px;
+        color: #fff;
+        line-height: 1.9;
+        letter-spacing: 1px;
+    }
+    .btn{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    .btn:hover{
+        border: 1px solid #074bf8;
+        background: #074bf8;
+        transition: 1s;
+
+    }
+    nav .fa-solid{
+        display: none;
+    }
+    @media(max-width:700px){
+        .textbox h1{
+            font-size: 20px;
+        }
+        .navlinks ul li{
+            display: block;
+        }
+        .navlinks{position: absolute;
+            background: #e2e3e3;
+            height: 100vh;
+            width: 200px;
+            top: 0;
+            right: -200px;
+            text-align: left;
+            z-index: 2;
+            transition: 1s;
+        }
+        
+        nav .fa-solid{display: block;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .faq-item{padding: 0px -60px;}
+    .navlinks ul{
+        padding: 30px;
+    }
+    nav img{
+    width: 150px;
+}
+    .search-container {
+  position: relative;
+  margin-top: 20px;
+  transform: translate(20px,-10px);
+}
+.search-container{display: none;}
+
+        
+    }
+
+.search-container {
+  position: relative;
+  margin-top: 20px;
+  transform: translate(20px,-10px);
+}
+
+
+.search-input {
+  padding: 10px 30px 10px 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 300px; 
+}
+
+.search-button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button img {
+  width: 20px;
+}
+
+.search-button:hover img {
+  filter: brightness(70%); 
+}
+footer {
+    background-color: #104e94;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fdfdfd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-logo .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo img{
+  width: 200px;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer-social a:hover {
+    color: #ccc;
+}
+
+.footer-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px 0;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-column form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subscribe-column input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.subscribe-column button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subscribe-column button:hover {
+    background-color: #0056b3;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .footer-middle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links {
+        margin-top: 10px;
+    }
+}
+.faq-container {
+    max-width: 1300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    transform: translate(50px,0px);
+    line-height: 1.3;
+    margin-left:20px;
+
+}
+@media(max-width:700px){
+    .faq-container{
+        transform: translate(0px,0px);
+    }
+}
+
+h2 {
+    text-align: center;
+    color: #20a5fd;
+}
+
+.faq-category {
+    margin-top: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.question {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    background-color: #fafafa;
+    border-left: 4px solid #007BFF;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .faq-container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .faq-item {
+        margin-bottom: 10px;
+    }
+}
+</style>
+<script>
+    var navlinks= document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const answer = item.querySelector('.answer');
+            const isOpen = answer.style.display === 'block';
+            answer.style.display = isOpen ? 'none' : 'block';
+        });
+    });
+});
+
+</script>
+
